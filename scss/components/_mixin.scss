@@ -1,0 +1,4 @@
+@mixin estilosPosition ($size, $position ) {
+    font-size: $size;
+    text-align: $position;
+}
