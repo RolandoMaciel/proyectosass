@@ -1,4 +1,6 @@
 /*Index */
+@import "mixin";
+
 .heros {
     color: rgb(255, 255, 255);
     display: flex;
@@ -17,8 +19,7 @@
         font-weight: bold;
     }
     p{
-        @include estilosPosition(30px,center)
-        
+        @include estilosPosition (30px,center)
     }
     a{
         text-decoration: none;

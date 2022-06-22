@@ -1,18 +1,158 @@
-/* Error: Undefined mixin.
- *    ,
- * 20 |         @include estilosPosition(30px,center)
- *    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   scss\components\_main.scss 20:9  @import
- *   scss\style.scss 4:9              root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 20 \2502          @include estilosPosition(30px,center)\d\a    \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\components\\_main.scss 20:9  @import\a   scss\\style.scss 4:9              root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
+
+/*@import "bootstrap/bootstrap.scss";*/
+/*Index */
+.heros {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 150px);
+  background: linear-gradient(rgba(0, 0, 0, 0.485), rgba(0, 0, 0, 0.542)), url(../imagenes/banner.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.heros h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.heros p {
+  font-size: 30px;
+  text-align: center;
+}
+.heros a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(110, 107, 107);
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 10px;
+}
+.heros a:hover {
+  background-color: #e0d8d8;
+  color: rgba(0, 0, 0, 0.425);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.section_two div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section_two div img {
+  width: 500px;
+  height: 600px;
+  margin: 20px;
+  border-radius: 40px;
+  box-shadow: -9px 15px 52px 19px rgba(192, 146, 146, 0.37);
+}
+.section_two h3 {
+  font-size: 30px;
+  text-align: center;
+}
+.section_two p {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+/*Contacto*/
+.contacto {
+  text-align: center;
+}
+
+/*Nosotros*/
+.nosotros {
+  font-size: 35px;
+  text-align: center;
+}
+.nosotros div {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.nosotros img {
+  padding: 10px;
+  margin: 20px;
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+/*Franquicias*/
+.franquicias {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.franquicias h1 {
+  font-size: 60px;
+  text-align: center;
+}
+.franquicias h1 h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.franquicias img {
+  padding: 10px;
+  margin: 10px;
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+/*Productos*/
+.productos {
+  font-size: 40px;
+  text-align: center;
+}
+.productos img {
+  width: 200px;
+  height: 200px;
+  border-radius: 60px;
+}
+
+.productos_two {
+  font-size: 40px;
+  text-align: center;
+}
+.productos_two img {
+  border-radius: 10px;
+  transition: all 400ms ease;
+}
+.productos_two img:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #666;
+}
+.footer ul li a {
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000;
+}
+.footer div a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  margin: 0px;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
