@@ -1,4 +1,5 @@
 @import "../base/mixin";
+@import "../base/extends";
 
 /*Index */
 .heros {
@@ -97,10 +98,9 @@
         }
     }
     img{
+        @extend .estiloImag;
         padding: 10px;
         margin: 10px;
-        width: 600px;
-        height: 600px;
         border-radius: 20px;
     }
 }

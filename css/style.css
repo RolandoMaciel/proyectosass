@@ -5,7 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 
-/*Index */
+.estiloImag, .franquicias img {
+  width: 600px;
+  height: 600px;
+} /*Index */
 .heros {
   color: rgb(255, 255, 255);
   display: flex;
@@ -104,8 +107,6 @@
 .franquicias img {
   padding: 10px;
   margin: 10px;
-  width: 600px;
-  height: 600px;
   border-radius: 20px;
 }
 
@@ -152,6 +153,11 @@
   border-radius: 40px;
   margin: 0px;
   padding: 5px;
+}
+
+.estiloImag, .franquicias img {
+  width: 600px;
+  height: 600px;
 }
 
 /*# sourceMappingURL=style.css.map */
