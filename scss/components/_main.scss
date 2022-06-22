@@ -51,8 +51,7 @@
         }
     }
     h3 {
-        font-size: 30px;
-        text-align: center;
+        @include estilosPosition (30px,center)
     }
     p {
         display: flex;

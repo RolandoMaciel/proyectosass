@@ -1,7 +1,7 @@
 
 @import "../scss/base/generales";
-/*@import "bootstrap/bootstrap.scss";*/
 @import "components/main";
 @import "components/footer";
 @import "base/mediaQ";
-@import "components/mixin";
+@import "../scss/base/mixin";
+@import "../scss/base/extends";
