@@ -71,6 +71,12 @@
 /*Contacto*/
 .contacto {
   text-align: center;
+  padding: 10px;
+  background-image: url(/imagenes/6-400x516.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /*Nosotros*/
@@ -155,6 +161,20 @@
   padding: 5px;
 }
 
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  /*Nosotros*/
+  .nosotros img {
+    padding: 80px;
+    margin: -50px;
+    border-radius: 35px;
+  }
+  /*Franquicias*/
+  .franquicias img {
+    padding: 80px;
+    margin: -50px;
+    border-radius: 35px;
+  }
+}
 .estiloImag, .franquicias img {
   width: 600px;
   height: 600px;
