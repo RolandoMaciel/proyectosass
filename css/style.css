@@ -71,12 +71,33 @@
 /*Contacto*/
 .contacto {
   text-align: center;
-  padding: 10px;
+  padding: 30px;
   background-image: url(../imagenes/6-400x516.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+}
+.contacto h2 {
+  color: #fff;
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  border: solid 2px #fff;
+  border-radius: 15px;
+}
+.contacto .informacion h3 {
+  color: #fff;
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  border: solid 2px #fff;
+  border-radius: 15px;
+}
+.contacto .informacion p {
+  color: #fff;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 /*Nosotros*/
@@ -173,6 +194,11 @@
     padding: 80px;
     margin: -50px;
     border-radius: 35px;
+  }
+  .contacto iframe {
+    border-radius: 15px;
+    height: 350px;
+    width: 350px;
   }
 }
 .estiloImag, .franquicias img {
