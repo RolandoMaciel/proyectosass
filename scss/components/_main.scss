@@ -25,7 +25,7 @@
     a{
         text-decoration: none;
         color: rgb(0, 0, 0);
-        background-color: rgb(110, 107, 107);
+        background-color: #cf2e2e;
         font-size: 20px;
         padding: 8px;
         border-radius: 10px;
@@ -38,7 +38,36 @@
     }
 }
 
+.section_main{
+    background-image: url(../imagenes/espacio-diseno-pared-ladrillo-negro.jpg);
+    background-attachment: fixed;
+}
+
+.section_one{
+    backdrop-filter: blur(5px);
+    padding: 50px;
+    div{
+        h5{
+            font-family: sans-serif;
+            font-size: 35px;
+            text-transform: uppercase;
+            color: #cf2e2e;
+            text-shadow: -1px 2px #fff;
+            border-radius: 10px ;
+        }
+        p{
+            padding: 15px;
+            font-size: 20px;
+            font-family: sans-serif;
+            background-color:#cf2e2e;
+            border-radius: 15px 40px;
+            border: solid 3px #fff;
+        }
+    }
+}
+
 .section_two {
+    backdrop-filter: blur(5px);
     div{
         display: flex;
         justify-content: center;
@@ -48,16 +77,24 @@
             height: 600px;
             margin: 20px;
             border-radius: 40px;
-            box-shadow: -9px 15px 52px 19px rgba(192, 146, 146, 0.37);
         }
     }
     h3 {
-        @include estilosPosition (30px,center)
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 40px;
+        letter-spacing: 20px;
+        color: #cf2e2e;
+        text-shadow: -1px 2px #fff;
     }
     p {
-        display: flex;
+        margin: 30px;
+        text-align: center;
         justify-content: center;
-        font-size: 20px;
+        font-size: 30px;
+        background-color: #cf2e2e;
+        border-radius: 15px 40px;
+        border: solid 2px #fff;
     }
     
 }
@@ -95,6 +132,7 @@
         }
     }
 }
+
 
 /*Nosotros*/
 .nosotros{
