@@ -2,6 +2,11 @@
 @import "../base/extends";
 
 /*Index */
+
+.navbar-main .active {
+    text-decoration: underline wavy (#cf2e2e 2px);
+}
+
 .heros {
     color: rgb(255, 255, 255);
     display: flex;
@@ -77,6 +82,7 @@
             height: 600px;
             margin: 20px;
             border-radius: 40px;
+            border: solid #fff;
         }
     }
     h3 {
@@ -102,12 +108,10 @@
 /*Contacto*/
 .contacto{
     h2{
-        color: #fff;
-        text-shadow: 2px 2px black;
+        color: #cf2e2e;
+        text-shadow: -1px 2px #fff;
         font-size: 3rem;
         letter-spacing: 5px;
-        border: solid 2px #fff;
-        border-radius: 15px;
     }
     text-align: center;
     padding: 30px;
@@ -118,17 +122,19 @@
     background-size: cover;
     .informacion{
         h3{
-            color: #fff;
-            text-shadow: 2px 2px black;
+            color: #cf2e2e;
+            text-shadow: -1px 2px rgb(0, 0, 0);
             font-size: 3rem;
             letter-spacing: 5px;
-            border: solid 2px #fff;
-            border-radius: 15px;
+            background-color: #fff;
+            border-radius: 15px 40px;
         }
         p{
+            padding: 25px;
+            font-size: 25px;
             color: #fff;
-            text-shadow: 1px 1px rgb(0, 0, 0);
-            font-size: 20px;
+            background-color: #cf2e2e;
+            border-radius: 15px 40px;
         }
     }
 }
@@ -136,11 +142,23 @@
 
 /*Nosotros*/
 .nosotros{
-    font-size: 35px;
     text-align: center;
+    h1{
+        color: #fff;
+        font-size: 3rem;
+        margin: 15px;
+        padding: 25px;
+        text-shadow: -1px 2px black;
+        background-color: #cf2e2e;
+        border-radius: 15px 40px;
+
+    }
     div{
         font-size: 30px;
         text-transform: uppercase;
+        background-color: antiquewhite;
+        border: solid #cf2e2e;
+        border-radius: 15px;
     }
     img{
         padding: 10px;
@@ -153,43 +171,74 @@
 
 /*Franquicias*/
 .franquicias{
-    font-size: 30px;
+    font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
     h1{
-        font-size: 60px;
+        margin: 15px;
+        padding: 10px;
+        font-size: 3rem;
         text-align: center;
-        h2{
-            font-size: 40px;
-            text-align: center;
-        }
+        color: #fff;
+        text-shadow: -1px 2px rgb(0, 0, 0);
+        background-color: #cf2e2e;
+        border-radius: 15px 40px;
+    }
+    h2{
+        font-size: 45px;
+        text-align: center;
+        background-color: blanchedalmond;
+    }
+    p{
+        font-size: 30px;
+        color:black;
+        background-color: blanchedalmond
     }
     img{
         @extend .estiloImag;
         padding: 10px;
         margin: 10px;
-        border-radius: 20px;
+        border-radius: 15px;
     }
 }
 
 /*Productos*/
-.productos{
-    font-size: 40px;
-    text-align: center;
-    img{
-        width: 200px;
-        height: 200px;
-        border-radius: 60px;
+.productos {
+    div{
+        text-align: center;
+        h1{
+            margin: 15px;
+            padding: 10px;
+            font-size: 3rem;
+            color: #fff;
+            text-shadow: -1px 2px black;
+            background-color: #cf2e2e;
+            border-radius: 15px 40px;
+        }
+        img{
+            padding: 5px;
+            border-radius: 50px;
+        }
     }
 }
 .productos_two{
-    font-size: 40px;
-    text-align: center;
-    img{
-        border-radius: 10px;
-        transition: all 400ms ease;
-        &:hover {
-            transform: scale(1.1);
+    div{
+        text-align: center;
+        h1{
+            margin: 15px;
+            padding: 10px;
+            color: #fff;
+            font-size: 3rem;
+            text-shadow: -1px 2px black;
+            background-color:#cf2e2e;
+            border-radius: 15px 40px;
+        }
+        img{
+            border-radius: 10px;
+            transition: all 400ms ease;
+            &:hover {
+                transform: scale(1.1);
+            }
         }
     }
 }
