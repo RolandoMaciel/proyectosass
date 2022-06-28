@@ -2,11 +2,13 @@
 @media only screen and (max-width: 767px) and (min-width: 320px) {
     /*Nosotros*/
     .nosotros{
-        width: 100%;
-        text-align: center;
-        img{
-            max-width: 90%;
-            width: 600;
+        div{
+            width: 100%;
+            text-align: center;
+            img{
+                max-width: 90%;
+                width: 600;
+            }
         }
     }
     /*Productos*/
