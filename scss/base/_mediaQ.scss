@@ -8,6 +8,17 @@
             border-radius: 35px;
         }
     }
+    /*Productos*/
+    .productos_two{
+        div{
+            img{
+                transition:none;
+                &:hover{
+                    transform:none
+                }
+            }
+        }
+    }
     
     /*Franquicias*/
     .franquicias {
@@ -17,10 +28,11 @@
             border-radius: 35px;
         }
     }
-    .contacto
-    iframe{
-        border-radius: 15px;
-        height: 350px;
-        width: 350px;
+    /*Contacto*/
+    .contacto{
+        iframe{
+            height: 300px;
+            width: 300px;
+        }
     }
 }

@@ -269,16 +269,23 @@
     margin: -50px;
     border-radius: 35px;
   }
+  /*Productos*/
+  .productos_two div img {
+    transition: none;
+  }
+  .productos_two div img:hover {
+    transform: none;
+  }
   /*Franquicias*/
   .franquicias img {
     padding: 80px;
     margin: -50px;
     border-radius: 35px;
   }
+  /*Contacto*/
   .contacto iframe {
-    border-radius: 15px;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
   }
 }
 .estiloImag, .franquicias img {
