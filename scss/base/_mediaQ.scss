@@ -6,7 +6,7 @@
         text-align: center;
         img{
             max-width: 90%;
-            width: 675;
+            width: 600;
         }
     }
     /*Productos*/
@@ -15,7 +15,7 @@
             img{
                 transition:none;
                 &:hover{
-                    transform:none
+                    transform:none;
                 }
             }
         }
@@ -28,7 +28,7 @@
             text-align: center;
             img{
                 max-width: 92%;
-                width: 675px;
+                width: 600px;
             }
         }
     }
