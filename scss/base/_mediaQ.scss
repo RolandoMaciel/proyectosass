@@ -2,10 +2,11 @@
 @media only screen and (max-width: 767px) and (min-width: 320px) {
     /*Nosotros*/
     .nosotros{
+        width: 100%;
+        text-align: center;
         img{
-            padding: 80px;
-            margin: -50px;
-            border-radius: 35px;
+            max-width: 90%;
+            width: 675;
         }
     }
     /*Productos*/
@@ -22,10 +23,13 @@
     
     /*Franquicias*/
     .franquicias {
-        img{
-            padding: 80px;
-            margin: -50px;
-            border-radius: 35px;
+        div{
+            width: 100%;
+            text-align: center;
+            img{
+                max-width: 92%;
+                width: 675px;
+            }
         }
     }
     /*Contacto*/

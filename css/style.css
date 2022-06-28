@@ -264,10 +264,13 @@
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
   /*Nosotros*/
+  .nosotros {
+    width: 100%;
+    text-align: center;
+  }
   .nosotros img {
-    padding: 80px;
-    margin: -50px;
-    border-radius: 35px;
+    max-width: 90%;
+    width: 675;
   }
   /*Productos*/
   .productos_two div img {
@@ -277,10 +280,13 @@
     transform: none;
   }
   /*Franquicias*/
-  .franquicias img {
-    padding: 80px;
-    margin: -50px;
-    border-radius: 35px;
+  .franquicias div {
+    width: 100%;
+    text-align: center;
+  }
+  .franquicias div img {
+    max-width: 92%;
+    width: 675px;
   }
   /*Contacto*/
   .contacto iframe {
