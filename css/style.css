@@ -14,6 +14,13 @@
   text-decoration: underline wavy #cf2e2e 2px;
 }
 
+#botonArriba {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+}
+
 .heros {
   color: rgb(255, 255, 255);
   display: flex;
@@ -207,9 +214,23 @@
   border-radius: 15px 40px;
 }
 .franquicias h2 {
-  font-size: 45px;
+  font-size: 40px;
   text-align: center;
   background-color: blanchedalmond;
+}
+.franquicias h2 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: #cf2e2e;
+  font-size: 40px;
+  padding: 2px;
+  border-radius: 8px;
+}
+.franquicias h2 a:hover {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.425);
+  border-radius: 8px;
+  padding: 2px;
 }
 .franquicias p {
   font-size: 30px;
@@ -244,6 +265,7 @@
 .productos div img {
   padding: 5px;
   border-radius: 50px;
+  border: solid 1px #fff;
 }
 
 .productos_two div {
@@ -270,7 +292,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #666;
+  background-color: rgb(63, 62, 62);
+}
+.footer span {
+  font-family: sans-serif;
+  color: white;
 }
 .footer ul li a {
   padding: 15px;
@@ -280,12 +306,19 @@
   color: #ffffff;
   text-shadow: 2px 2px 2px #000000;
 }
+.footer div {
+  transition: all 0.8;
+}
 .footer div a img {
   width: 50px;
   height: 50px;
   border-radius: 40px;
   margin: 0px;
   padding: 5px;
+}
+.footer div a img:hover {
+  background-color: #eb5757;
+  box-shadow: 0 0 10px #eb5757;
 }
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
