@@ -139,6 +139,11 @@
     }
 }
 
+.nosotros-body{
+    background: #eb5757; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eb5757, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eb5757, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 /*Nosotros*/
 .nosotros{
@@ -179,6 +184,12 @@
 }
 
 /*Franquicias*/
+.franquicias-body{
+    background: #eb5757; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eb5757, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eb5757, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .franquicias{
     font-size: 3rem;
     text-align: center;
@@ -212,6 +223,12 @@
 }
 
 /*Productos*/
+.productos-body{
+    background: #eb5757; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eb5757, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eb5757, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .productos {
     div{
         text-align: center;
