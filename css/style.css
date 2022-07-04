@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2? family= Roboto & family= Roboto+Serif:opsz@8..144 & display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,15 +9,13 @@
   width: 600px;
   height: 600px;
 } /*Index */
+/*barra de navegacion*/
 .navbar-main .active {
   text-decoration: underline wavy #cf2e2e 2px;
 }
 
-#botonArriba {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 60px;
+.navbar-brand {
+  font-family: "Roboto Serif", serif;
 }
 
 .heros {
@@ -38,6 +35,7 @@
 .heros h1 {
   font-size: 60px;
   font-weight: bold;
+  font-family: "Roboto Serif", serif;
 }
 .heros p {
   font-size: 30px;
@@ -68,7 +66,7 @@
   padding: 50px;
 }
 .section_one div h5 {
-  font-family: sans-serif;
+  font-family: "Roboto Serif", serif;
   font-size: 35px;
   text-transform: uppercase;
   color: #cf2e2e;
@@ -101,7 +99,7 @@
 }
 .section_two h3 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Roboto Serif", serif;
   font-size: 40px;
   letter-spacing: 20px;
   color: #cf2e2e;
@@ -127,6 +125,10 @@
   background-attachment: fixed;
   background-size: cover;
 }
+.contacto iframe {
+  width: 600px;
+  height: 500px;
+}
 .contacto h2 {
   color: #cf2e2e;
   text-shadow: -1px 2px #fff;
@@ -148,11 +150,10 @@
   background-color: #cf2e2e;
   border-radius: 15px 40px;
 }
-
-.nosotros-body {
-  background: #eb5757; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #eb5757, #000000); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #eb5757, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.contacto .informacion p a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
 }
 
 /*Nosotros*/
@@ -189,6 +190,12 @@
   font-size: 30px;
   color: black;
   background-color: blanchedalmond;
+}
+
+.nosotros-body {
+  background: #eb5757; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eb5757, #000000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eb5757, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /*Franquicias*/

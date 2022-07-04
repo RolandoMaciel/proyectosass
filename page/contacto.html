@@ -23,7 +23,7 @@
 </head>
 <body>
     <header><!--Menu de navegacion-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-main ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-main">
             <div class="container">
                     <img src="../imagenes/logo.png" width="70px" alt="">
                     <a class="navbar-brand" style="color: #cf2e2e" href="../index.html">Bienvenidos</a>
@@ -33,7 +33,7 @@
                 <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 text-end">
                     <li class="nav-item"><!--Secciones de la pagina-->
-                        <a class="nav-link " href="../index.html">Inicio</a>
+                        <a class="nav-link "  href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current href="contacto.html">Contacto</a>
@@ -63,7 +63,7 @@
                     <label for="email" class="form-label">Email:</label>
                     <input type="email" class="form-control" placeholder="Email">
                 </div>
-                <div class="col-12">
+                <div class="col">
                     <label for="Dirección" class="form-label">Dirección:</label>
                     <input type="text" class="form-control" placeholder="Dirección">
                 </div>
@@ -75,27 +75,37 @@
                     <label for="Localidad" class="form-label">Localidad:</label>
                     <input type="text" class="form-control" placeholder="Localidad">
                 </div>
+                <div class="col">
+                    <label for="Mensaje">Mensaje</label>
+                    <textarea name="Mensaje" id="Mensaje" class="form-control" placeholder="Comentario"></textarea>
+                </div>
                 <div class="col-12 mb-3">
                     <button type="submit" class="btn btn-primary">
                         Enviar
                     </button>
                 </div>
             </form>
-            <div class="col-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26251.39306276139!2d-58.532096752054294!3d-34.66924354830687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc8541d0ab32f%3A0x846d801ab604bf1b!2sLobato!5e0!3m2!1ses-419!2sar!4v1654936998677!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="informacion">
+        </div>
+        <div class="container-fluid">
+            <div class="row align-items-start">
+                <div class="col informacion">
                     <h3>Llamanos:</h3>
-                    <p><a href="tel:01146444008"> 01146444008</a></p>
-                    <p><a href="tel:01146444008"> 01146444008</a></p>
+                    <p><a href="tel:01146444008"> : 011 46444008</a></p>
+                    <p><a href="tel:01146444008"> : 011 46444008</a></p>
                 </div>
-                <div class="informacion">
+                <div class="col informacion">
                     <h3>Formas de Pago</h3>
                     <p>Consultanos las diferentes vias: Efectivo, Débito y Crédito</p>
                 </div>
-                <div class="informacion">
+                <div class="col informacion">
                     <h3>Horarios</h3>
-                    <p>M-F: 6am - 5pm -Sat: 7am - 4pm - Sun: Closed</p>
+                    <p>Miércoles a Lunes: 19:30hs a 23:15hs Martes: Cerrado</p>
+                </div>
             </div>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26251.39306276139!2d-58.532096752054294!3d-34.66924354830687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc8541d0ab32f%3A0x846d801ab604bf1b!2sLobato!5e0!3m2!1ses-419!2sar!4v1654936998677!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
     <footer class="footer">
         <span class="piePagina">2022 © Rolando Vidal Maciel</span>

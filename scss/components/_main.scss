@@ -2,17 +2,15 @@
 @import "../base/extends";
 
 /*Index */
-
+/*barra de navegacion*/
 .navbar-main .active{
     text-decoration:underline wavy (#cf2e2e 2px);
 }
 
-#botonArriba{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px;
+.navbar-brand {
+    font-family:'Roboto Serif', serif;
 }
+
 
 .heros {
     color: rgb(255, 255, 255);
@@ -30,6 +28,7 @@
     h1{
         font-size: 60px;
         font-weight: bold;
+        font-family: 'Roboto Serif', serif;
     }
     p{
         @include estilosPosition (30px,center)
@@ -60,7 +59,7 @@
     padding: 50px;
     div{
         h5{
-            font-family: sans-serif;
+            font-family: 'Roboto Serif', serif;
             font-size: 35px;
             text-transform: uppercase;
             color: #cf2e2e;
@@ -94,7 +93,7 @@
     }
     h3 {
         text-align: center;
-        font-family: sans-serif;
+        font-family: 'Roboto Serif', serif;
         font-size: 40px;
         letter-spacing: 20px;
         color: #cf2e2e;
@@ -114,6 +113,10 @@
 
 /*Contacto*/
 .contacto{
+    iframe{
+        width: 600px;
+        height: 500px;
+    }
     h2{
         color: #cf2e2e;
         text-shadow: -1px 2px #fff;
@@ -142,14 +145,13 @@
             color: #fff;
             background-color: #cf2e2e;
             border-radius: 15px 40px;
+            a{
+                text-decoration: none;
+                list-style: none;
+                color: #fff;
+            }
         }
     }
-}
-
-.nosotros-body{
-    background: #eb5757; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eb5757, #000000); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eb5757, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /*Nosotros*/
@@ -188,6 +190,11 @@
             background-color: blanchedalmond
         }
     }
+}
+.nosotros-body{
+    background: #eb5757; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eb5757, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eb5757, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /*Franquicias*/
