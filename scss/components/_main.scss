@@ -8,7 +8,7 @@
 }
 
 .navbar-brand {
-    font-family:'Roboto Serif', serif;
+    font-family:'Rubik Moonrocks', cursive;
 }
 
 
@@ -26,9 +26,9 @@
     background-size: cover;
     background-attachment: fixed;
     h1{
-        font-size: 60px;
+        font-size: 50px;
         font-weight: bold;
-        font-family: 'Roboto Serif', serif;
+        font-family: 'Rubik Moonrocks', cursive;
     }
     p{
         @include estilosPosition (30px,center)
@@ -38,6 +38,7 @@
         color: rgb(0, 0, 0);
         background-color: #cf2e2e;
         font-size: 20px;
+        font-family: 'Rubik Moonrocks', cursive;
         padding: 8px;
         border-radius: 10px;
         &:hover{
@@ -198,11 +199,6 @@
 }
 
 /*Franquicias*/
-.franquicias-body{
-    background: #eb5757; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eb5757, #000000); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eb5757, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
 .franquicias{
     font-size: 3rem;
@@ -249,13 +245,13 @@
         border-radius: 15px;
     }
 }
-
-/*Productos*/
-.productos-body{
+.franquicias-body{
     background: #eb5757; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #eb5757, #000000); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #eb5757, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+/*Productos*/
 
 .productos {
     div{
@@ -296,4 +292,9 @@
             }
         }
     }
+}
+.productos-body{
+    background: #eb5757; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eb5757, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eb5757, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
