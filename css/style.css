@@ -163,6 +163,8 @@
     text-shadow: -1px 2px black;
     border-radius: 15px 40px; }
   .nosotros div p {
+    border-radius: 15px;
+    margin: 15px;
     font-size: 30px;
     color: black;
     background-color: blanchedalmond; }
@@ -190,6 +192,8 @@
     background-color: #cf2e2e;
     border-radius: 15px 40px; }
   .franquicias h2 {
+    border-radius: 15px;
+    margin: 15px;
     font-size: 40px;
     text-align: center;
     background-color: blanchedalmond; }
@@ -206,6 +210,8 @@
         border-radius: 8px;
         padding: 2px; }
   .franquicias p {
+    border-radius: 15px;
+    margin: 15px;
     font-size: 30px;
     color: black;
     background-color: blanchedalmond; }
